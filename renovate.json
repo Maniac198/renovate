@@ -1,18 +1,5 @@
 {
   "extends": ["config:base"],
 
-  "dependencyDashboard": true,
-
-  "packageRules": [
-    {
-      "matchManagers": ["leiningen"],
-      "groupName": "clojure dependencies",
-      "groupSlug": "clojure-deps"
-    },
-    {
-      "matchManagers": ["dockerfile"],
-      "groupName": "docker dependencies",
-      "groupSlug": "docker-deps"
-    }
-  ]
+  "dependencyDashboard": true
 }
