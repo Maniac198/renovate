@@ -8,6 +8,11 @@
       "matchManagers": ["leiningen"],
       "groupName": "clojure dependencies",
       "groupSlug": "clojure-deps"
+    },
+    {
+      "matchManagers": ["dockerfile"],
+      "groupName": "docker dependencies",
+      "groupSlug": "docker-deps"
     }
   ]
 }
